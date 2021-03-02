@@ -1,17 +1,23 @@
+html {background-color:rgb(128, 128, 128)} 
+
 header {  
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%; 
-    background-image: linear-gradient(to top left, rgb(255, 0, 0), #4e1414);
+    background-image: linear-gradient(to top left, rgb(40, 47, 146), #1a144e);
 }
 h1 {
     font-size: 70px;
+    color: white;
 }
-main {
-    display: flex;
-    flex-direction: row;
+h1 img { 
+    max-width: 200px;
+    max-height: 200px;
 
+}
+main p{
+    font-size: 35px;
 }
 ul {
     display: flex;
@@ -20,29 +26,41 @@ li {
     margin: 0 10px 0 10px;  
     border-bottom: 1px black solid;
 }
-a {
-    color: black;
+nav ul li a {
+    color: rgb(255, 255, 255);
 }
 .imageContainer {
-    border: 2px solid red;
-    margin: 2%;
-    max-width: 600px;
+    border: grey solid 2.5px;
 }
 .aboutMe {
 
 }
-.work a img { 
-    width: 500px;
-    height: 500px;
+#work a img { 
+    width:inherit;
+    height:inherit;
+    max-width: 100%;
 }
-.contactMe a img{
-    width: 500px;
-    height: 500px;
+#contactMe a img{
+    margin-top: 5px;
+    width: 50%;
+    float: left;
+    height: 600px;
 }
-.resume a img {
-    width: 500px;
-    height: 500px;
+#resume img {
+    width: 50%;
+    height: 600px;
 }
-.minicont {
-    flex-direction: column;
+.top a {
+    color: white;
 }
+.top p {
+}
+.bottom a img{
+}
+@media screen and (max-width: 767px) {
+    /* ALL < TABLET */
+   }
+   
+   @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* TABLET */
+   }
