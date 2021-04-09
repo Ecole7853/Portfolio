@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,56 +9,87 @@
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
     <header>
         <h1>
-            <img src="./assets/Images/Face.jpg">
-            Eric Cole    
+            Eric Cole
         </h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#aboutMe">About Me</a>
+                    <a href="#one">Contact/Resume</a>
                 </li>
                 <li>
-                    <a href="#work">Work</a>      
+                    <a href="#two">Homework Section 1</a>
                 </li>
                 <li>
-                    <a href="#contactMe">Contact Me</a>
+                    <a href="#three">Homework Section 2</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="#four">Homework Section 3</a>
                 </li>
             </ul>
     </header>
     <main>
-        <section class= top>   
+        <div class=top>
             <div id="aboutMe">
-                <div class="imageContainer">
+                <img id=pic src="./assets/Images/Face.jpg">
+                <div id="about">
+                    <p>
+                        My name is Eric Cole, I'm currently a foreman with an electrical company and work out of DC, I'm
+                        also in a bootcamp through Trilogy learning Full stack development. My goals over the next few
+                        years are to become a fullstack developer! Below, is some of the work I've accomplished within
+                        the course.
+                    </p>
                     <a href="https://www.facebook.com/eric.cole.980">Click here to see my facebook page!</a>
-                        <p>
-                            About me; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo alias dolorum autem dolores pariatur! Nulla non natus, officia obcaecati sint exercitationem dignissimos, commodi iste quia cumque, ipsum molestias perspiciatis optio.
-                        </p>
+                    <a href="https://www.facebook.com/eric.cole.980">Click here to see my LinkedIn!</a> 
+                    <!-- My linkedin is connected with my employer and i cannot adjust it yet, i may have to create a new one. Have not made a new resume as i'm not yet ready to start looking for a job. Put in template as a placeholder. -->
                 </div>
-            </div>      
-            <div id="work">
-                <div class="imageContainer">
-                    <a href="https://ecole7853.github.io/Horiseon-webpage-homework-/"><img src="./assets/Images/Screenshot.png"></a>
+                <img id=pic src="./assets/Images/cityridge.jpg">
+            </div>
+        </div>
+        <div class="middle">
+            <h2>Contact/Resume</h2>
+            <div class="row" id="two">
+                <div id="contactMe">
+                    <a href="mailto:ecole052785@gmail.com"><img class="imageContainer" src="./assets/Images/emailimg.png"></a>
+                </div>
+                <div id="resume">
+                    <img class="imageContainer" src="./assets/Images/resume.png">
                 </div>
             </div>
-        </section>   
-        <section class= bottom>
-            <div id="contactMe">
-                <div class="imageContainer">
-                    <a href="mailto:ecole052785@gmail.com"><img src="./assets/Images/emailimg.png"></a>
+            <h2>Homework Section 1</h2>
+            <div class="row" id="one">
+                <div id="work">
+                    <a href="https://ecole7853.github.io/Horiseon-webpage-homework-/"><img class="imageContainer" src="./assets/Images/Screenshot.png"></a>
                 </div>
-            </div>           
-            <div id="resume">
-                <div class="imageContainer">
-                    <img src="./assets/Images/resume.png">
+                <div id="projectOne">
+                    <a href="https://synag.github.io/project_1_recipe_mixer/index.html"><img class="imageContainer" src="./assets/Images/project.png"></a>
                 </div>
-            </div>       
-        </section>
+            </div>    
+        </div>
+        <div class="bottom">
+            <h2>Homework Section 2</h2>
+            <div class="row" id="three">
+                <div class="codeQuiz">
+                    <a href="https://github.com/Ecole7853/CodeQuiz"><img class="imageContainer" src="./assets/Images/CodeQuiz.png"></a>
+                </div>
+                <div class="dailyPlanner">
+                    <a href="https://github.com/Ecole7853/CodeQuiz"><img class="imageContainer" src="./assets/Images/DailyPlanner.png"></a>
+                </div>
+            </div>
+            <h2>Homework Section 3</h2>
+            <div class="row" id="four">
+                <div class="passwordGenerator">
+                    <a href="https://ecole7853.github.io/PasswordGenerator/"><img class="imageContainer" src="./assets/Images/PasswordGen.png"></a>
+                </div>
+                <div class="weatherPage">
+                    <a href="https://ecole7853.github.io/WeatherPage/"><img class="imageContainer" src="./assets/Images/Weather.png"></a>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
+
 </html>
